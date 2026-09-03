@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+
+<script>
+    const valor = Number(prompt("Valor do jantar R$:"))
+    
+    const taxa = 0.1*valor
+    const valorTotal = valor + taxa
+
+    /*O método toFixed indica quantas casas decimais o valor deve apresentar, tornando
+    a saída mais profissional */
+    alert("Taxa do garçom R$: " + taxa.toFixed(2))
+    alert("Valor total a pagar R$: " + valorTotal.toFixed(2))
+</script>

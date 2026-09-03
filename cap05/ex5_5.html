@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa contas do mês</title>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <div id="programa">
+        <header>
+            <img src="img/contas.jpeg" alt="contas">
+            <h1>Programa contas do mês</h1>
+        </header>
+        <main>
+            <form>
+                <p>
+                    <label for="inDescricao"></label>Descrição:
+                    <input type="text" id="inDescricao" required autofocus>
+                </p>
+                <p>
+                    <label for="inValor"></label>Valor R$: 
+                    <input type="number" id="inValor" required step="0.01">
+                </p>
+                <p>
+                    <input type="submit" value="Mostrar contas do mês" id="buttom">
+                </p>
+            </form>
+
+            <pre id="outResp1"></pre>
+            <pre id="outResp2"></pre>
+        </main>
+    </div>
+
+    <script src="js/ex5_3.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<script>
+    alert("Digite 0 para sair do programa")
+
+    while (true){
+        let num = Number(prompt("Digite um número válido não nulo"))
+
+        if (num == 0 || isNaN(num)){
+            const sair = confirm("Deseja sair")
+            if (sair){
+                break
+            } else {
+                continue
+            }
+        }
+        if (num % 2 == 0) {
+            alert(`Dobro de ${num}: ${num*2}`)
+        } else {
+            alert(`Triplo de ${num}: ${num*3}`)
+        }
+    }
+
+
+
+    /*do {
+        let num = Number(prompt("Digite um número válido não nulo"))
+        if (num == 0 || isNaN(num)){
+            const sair = confirm(`Confirma a saída`)
+            if (sair){
+                break
+            } else {
+                continue
+            }
+        }
+        if (num % 2 ==0){
+            alert(`Dobro de ${num}: ${num*2}`)
+        } else {
+            alert (`Triplo de ${num}: ${num*3}`)
+        }
+    } while (true)*/
+</script>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra o número</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <img src="img/descubra_numero.webp" alt="números">
+            <h1>Jogo Descubra o Número</h1>
+        </header>
+        <main>
+            <form>
+                <p>
+                    <label for="inNumero">Número: </label>
+                    <input type="number" id="inNumero" required autofocus min="0" max="100">
+                    <input type="submit" value="Apostar" class="butao" id="btSubmit">
+                    <input type="button" value="Jogar novamente" class="oculta" id="btNovo">
+                </p>
+            </form>
+
+            <pre >Erros: <span id="outResp1">0</span ></pre>
+            <pre>Chances: <span id="outResp2">6</span></pre>
+            <pre id="outResp3" class="fonte-italico">É um número entre 1 e 100</pre>
+        </main>
+    </div>
+
+    <script src="js/ex6_2.js"></script>
+</body>
+</html>

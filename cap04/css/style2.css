@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1 {
+    border-bottom-style: inset;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-right: 30px;
+}
+
+pre {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#button {
+    padding:5px;
+    background-color:rgb(173, 224, 224);
+}

@@ -1,0 +1,35 @@
+<script>
+    let num
+    while (num == 0 || isNaN(num)){
+    num = Number(prompt("Digite um número válido, diferente de 0"))
+    }
+
+    let numPares = `Pares entre 1 e ${num}: `
+    for (let i = 1; i <= num; i++){
+        if (i % 2 == 0){
+            numPares += `${i}, `
+        }
+    }
+
+    alert(numPares)
+
+
+
+
+    /*let num
+    do {
+        num = Number(prompt("Digite um número: "))
+        if (num == 0 || isNaN(num)){
+            alert("Digite um número válido")
+        }
+    } while (num == 0 || isNaN(num))
+
+    let numerosPares = ""
+    for (let i = 1; i <= num; i++){
+        if (i % 2 == 0){
+            numerosPares += `${i}, `
+        }
+    }
+    
+    alert(`Pares entre 1 e ${num}: ${numerosPares}`)*/
+</script>

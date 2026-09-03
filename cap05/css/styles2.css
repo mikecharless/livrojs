@@ -1,0 +1,42 @@
+body {
+    background-color:aqua ;
+}
+
+div{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: 15px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    padding: 15px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0 100px;
+}
+
+#buttom {
+    padding: 5px;
+    background-color:azure;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+pre, #paragResp {
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
+
+
+
+

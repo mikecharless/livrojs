@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Programa Restaurante JS</h1>
+
+    <form>
+        <p>
+            Buffet por Quilo R$: 
+            <input type="number" id="inValor" step="0.01" required autofocus>
+        </p>
+        <p>
+            Consumo por cliente (gr): 
+            <input type="number" id="inConsumo" required min="0">
+        </p>
+        <p>
+            <input type="submit" value="Calcular Preço" id="button">
+        </p>
+    </form>
+
+    <pre id="outResp"></pre>
+
+    <script src="js/ex2_4.js"></script>
+</body>
+</html>

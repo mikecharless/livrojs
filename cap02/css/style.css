@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border-bottom-style: inset;
+    margin: 30px;
+}
+
+pre {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#button {
+    padding: 5px;
+    font-weight: bold;
+}
